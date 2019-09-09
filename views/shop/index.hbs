@@ -1,0 +1,53 @@
+{{# each products }}
+<div class="row">
+    {{# each this}}
+    <div class="col-sm-6 col-md-4">
+        <div class="img-thumbnail thumbnail" class="img-responsive">
+            <img
+                src= "{{this.imagePath}}">
+            <div class="caption">
+                <p class="description">extremely harder than the old one...</p>
+                <div class="clearfix">
+                    <div class="price pull-left">$120</div>
+                    <a href="#" class="btn btn-success pull-right" role="button">Button</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+{{/each}}
+
+
+
+
+
+
+
+{{!-- <div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="img-thumbnail thumbnail" class="img-responsive">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrq6f3Z_Th7AQbcvsz2I_v_NlWLePOGrz6aho_0GDg7B8FQeU07w">
+            <div class="caption">
+                <p class="description">change in environment, but its awesome</p>
+                <div class="clearfix">
+                    <div class="price pull-left">$30</div>
+                    <a href="#" class="btn btn-success pull-right" role="button">Button</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="img-thumbnail thumbnail" class="img-responsive">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBH8aOV_WDnqHTUmxt9HF4gmtnFK4LeEqdEvlmeiIXg5v89P40HQ">
+            <div class="caption">
+                <p class="description">mortal kombat 2 is horroic</p>
+                <div class="clearfix">
+                    <div class="price pull-left">$100</div>
+                    <a href="#" class="btn btn-success pull-right" role="button">Button</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br> --}}
